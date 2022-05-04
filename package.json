@@ -11,7 +11,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "save": "^2.3.1"
+    "save": "^2.3.1",
+    "uuid": "^8.3.2"
   },
   "scripts": {
     "prestart": "npm install",
@@ -20,8 +21,8 @@
     "test": "cross-env CI=true ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit"
   },
   "devDependencies": {
-    "cross-env": "^7.0.2",
     "chai": "^4.1.2",
+    "cross-env": "^7.0.2",
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",
     "expect": "^21.2.1",
